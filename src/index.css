@@ -1,0 +1,177 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body {
+    /* background-color: #122B49; */
+}
+
+.navBarTexts a {
+    font-family: 'Inter', sans-serif;
+}
+
+.mainContent {
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+.main-description .right section {
+    font-family: 'Inter', sans-serif;
+}
+.listing-form{
+    font-family: 'Inter';
+}
+.form-header{
+    font-family: 'Merriweather Sans', sans-serif;
+}
+input[type="email"] {
+    /* width: 92%; */
+    min-height: 27px;
+    border-radius: 3px;
+    border: 1px solid #7A7A7A;
+    box-shadow: inset 0 0 2px#7A7A7A;
+    font-size: 16px;
+    padding: 4px 12px;
+    outline: none;
+    /* margin-top: 3%; */
+}
+
+input[type="email"]:focus {
+    border-color: #7A7A7A;
+    box-shadow: inset 0 0 3.2px#7A7A7A;
+    border-width: 1pt;
+    font-size: 16px;
+    outline: none;
+}
+
+input[type="text"] {
+    /* width: 92%; */
+    min-height: 27px;
+    border-radius: 3px;
+    border: 1px solid #7A7A7A;
+    box-shadow: inset 0 0 2px#7A7A7A;
+    font-size: 16px;
+    padding: 4px 12px;
+    outline: none;
+    /* margin-top: 3%; */
+}
+
+input[type="text"]:focus {
+    border-color: #7A7A7A;
+    box-shadow: inset 0 0 3.2px#7A7A7A;
+    border-width: 1pt;
+    font-size: 16px;
+    outline: none;
+}
+
+input[type="number"] {
+    /* width: 92%; */
+    min-height: 27px;
+    border-radius: 3px;
+    border: 1px solid #7A7A7A;
+    box-shadow: inset 0 0 2px#7A7A7A;
+    font-size: 16px;
+    padding: 4px 12px;
+    outline: none;
+    /* margin-top: 3%; */
+}
+
+input[type="number"]:focus {
+    border-color: #7A7A7A;
+    box-shadow: inset 0 0 3.2px#7A7A7A;
+    border-width: 1pt;
+    font-size: 16px;
+    outline: none;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input::placeholder {
+    color: rgba(0, 0, 0, 0.250);
+    /* Ensures the color is not faded */
+}
+
+/* Hide the spinner in Firefox */
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+select option{
+    margin: 6px 10px;
+}
+/* WebKit-based browsers */
+section::-webkit-scrollbar {
+    width: 12px;
+    border-radius: 25%;
+    /* Widthsectionof the scrollbar */
+}
+
+section::-webkit-scrollbar-track {
+    background: #ffffff;
+    /* Color of the track */
+}
+
+section::-webkit-scrollbar-thumb {
+    background: #ff000000;
+    /* Color of the thumb */
+    border-radius: 6px;
+    /* Rounded corners of the thumb */
+}
+
+section::-webkit-scrollbar-thumb:hover {
+    background: #12d218;
+    /* Color of the thumb on hover */
+}
+
+section::-webkit-scrollbar-button {
+    color: transparent;
+    background-color: transparent;
+}
+
+section::-moz-scrollbar {
+    width: 12px;
+    border-radius: 25%;
+    /* Widthsectionof the scrollbar */
+}
+
+section::-moz-scrollbar-track {
+    background: #ffffff;
+    /* Color of the track */
+}
+
+section::-moz-scrollbar-thumb {
+    background: #ff000000;
+    /* Color of the thumb */
+    border-radius: 6px;
+    /* Rounded corners of the thumb */
+}
+
+section::-moz-scrollbar-thumb:hover {
+    background: #12d218;
+    /* Color of the thumb on hover */
+}
+
+section::-moz-scrollbar-button {
+    display: none;
+}
+
+/* Firefox */
+* {
+    scrollbar-width: thin;
+    /* "auto" or "thin" */
+    scrollbar-color: #888 #f1f1f100;
+    /* thumb color and track color */
+}
+
+.required {
+    color: red;
+}
