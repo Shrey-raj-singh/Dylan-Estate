@@ -2,20 +2,11 @@ import React, { useState } from 'react';
 
 const FeatureAndAmenitiesForm = () => {
     const [selectedNonVeg, setSelectedNonVeg] = useState('');
-    const [BuildUpArea, setBuildUpArea] = useState('');
-    const [CarpetArea, setCarpetArea] = useState('');
     const [selectedPetsAllowed, setSelectedPetsAllowed] = useState('');
     const [selectedElectricity, setSelectedElectricity] = useState('');
     const [selectedWaterSupply, setSelectedWaterSupply] = useState('');
-    const [selectedPropertyAge1, setSelectedPropertyAge1] = useState('');
-    const [selectedBHKType, setSelectedBHKType] = useState('');
-    const [selectedBathroom, setSelectedBathroom] = useState('');
-    const [selectedBalcony, setSelectedBalcony] = useState('');
-    const [selectedTenantPreference, setSelectedTenantPreference] = useState('');
-    const [selectedAvailability, setSelectedAvailability] = useState('');
-    const [selectedPropertyFacing, setPropertyFacing] = useState('');
 
-    const imagesList = ["24/7  Security", "CCTV Camera", "Lift", "Reserved Parking", "Regular water supply", "Power Back up-Partial "]
+    const imagesList = ["24/7 Security", "CCTV Camera", "Lift", "Reserved Parking", "Regular water supply", "Power Back up-Partial","Power Back up-Full","Maintenance staff","Garden-Park","Kids Play area","Sport","Property Gym","Community Hall","Shopping center","Club House","Swimming pool","Intercom","Fire Safety","Coaching","Pond"]
 
     const handleNonVeg = (e) => {
         setSelectedNonVeg(e.target.id);
@@ -288,7 +279,7 @@ const FeatureAndAmenitiesForm = () => {
                         return <div className="w-1/4 mb-6">
                             <div className="image-options w-12 mt-2 ">
                                 <input type="checkbox" name="SOCIETY AMENITIES" id={image} checked={selectedSOCIETYAMENITIES.includes({ image })} onChange={handleSOCIETYAMENITIES} />
-                                <label htmlFor={image}><img src={`./${image}.png`} alt="" /><p className='text-xs text-nowrap mx-2 w-full '>{image}</p></label>
+                                <label htmlFor={image}><img src={`./formIcons/${image}.png`} alt="" /><p className='text-xs text-nowrap mx-2 w-full '>{image}</p></label>
                             </div>
                         </div>
                     })}

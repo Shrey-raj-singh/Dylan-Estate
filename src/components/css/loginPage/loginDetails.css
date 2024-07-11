@@ -120,9 +120,10 @@ input[type="radio"],input[type="checkbox"] {
 }
 .image-options label img{
     /* position: absolute; */
-    margin-left: 50%;
-    width: 80px;
-    height: 40px;
+    margin-left: 75%;
+    margin-bottom: 10px;
+    width: 24px;
+    height: 24px;
 }
 
 
