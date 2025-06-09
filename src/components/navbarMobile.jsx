@@ -4,7 +4,7 @@ const NavBarMobile = () => {
         <img src="./LOGO.png" alt="logo " className="navBarMobileLogo mt-2 ml-12 w-[117px] h-[52px]" />
         <div className="navBarMobileTexts text-black justify-between flex relative top-2 w-2/3 pt-3 mr-6">
             <a href="./" className='py-3.5 font-bold'>PROPERTIES</a>
-            <a href="./" className='py-3.5 font-bold'>MY DASHBOARD/ACTIVITY</a>
+            <a href="./" className='py-3.5 font-bold'>MY ACTIVITY</a>
             <a href="./listProperty" className='py-3.5 font-bold'>LIST YOUR PROPERTY</a>
             <a href="./" className='py-3.5 font-bold'>CONTACT US</a>
             <a href="./" className='py-3.5 font-bold'>MORE</a>
