@@ -10,7 +10,7 @@ const NavBar = () => {
         <img src="./LOGO.png" alt="logo " className="navBarLogo mt-2 ml-12 w-[117px] h-[52px]" />
         <div className="navBarTexts text-black justify-between flex relative top-2 w-2/3 pt-3 mr-6">
             <Link to="/" className='py-3.5 font-bold'>PROPERTIES</Link>
-            <Link to="/" className='py-3.5 font-bold'>MY DASHBOARD/ACTIVITY</Link>
+            <Link to="/" className='py-3.5 font-bold'>MY ACTIVITY</Link>
             <Link to="/listProperty" className='py-3.5 font-bold'>LIST YOUR PROPERTY</Link>
             <Link to="/" className='py-3.5 font-bold'>CONTACT US</Link>
             <Link to="/" className='py-3.5 font-bold'>MORE</Link>
